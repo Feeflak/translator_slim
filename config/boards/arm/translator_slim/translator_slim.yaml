@@ -1,0 +1,18 @@
+identifier: translator_slim
+name: Translator Slim
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+  - xtools
+ram: 256
+flash: 1024
+supported:
+  - adc
+  - ble
+  - gpio
+  - i2c
+  - spi
+  - usb_device
+  - watchdog

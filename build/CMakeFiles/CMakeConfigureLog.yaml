@@ -1,0 +1,381 @@
+
+---
+events:
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:9 (find_package)"
+    name: "Zephyr"
+    configs:
+      -
+        filename: "ZephyrConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "zephyr-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      hints:
+        - "../zephyr"
+      names:
+        - "Zephyr"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/f/git/translator_slim/build/CMakeFiles/pkgRedirects/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/f/git/translator_slim/build/CMakeFiles/pkgRedirects/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/bya4ansy58az5133kryqp2cvrxbnz8qy-python3-3.14.10/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/bya4ansy58az5133kryqp2cvrxbnz8qy-python3-3.14.10/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/jahpzbzs80cj8f1qdsc7w7kpc8rvkdrm-python3.14-west-1.5.0/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/jahpzbzs80cj8f1qdsc7w7kpc8rvkdrm-python3.14-west-1.5.0/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/mflhqwd159gdwrdmljicp2f2mzni8q67-python3.14-pykwalify-1.8.0/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/mflhqwd159gdwrdmljicp2f2mzni8q67-python3.14-pykwalify-1.8.0/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/lfm00fnq66xfgbn099vqckabyl5jllz6-bash-interactive-5.3p20/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/lfm00fnq66xfgbn099vqckabyl5jllz6-bash-interactive-5.3p20/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/4v5ykmpi2i4q5c5nskp5036sgn0gldw4-picocom-2024-07/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/4v5ykmpi2i4q5c5nskp5036sgn0gldw4-picocom-2024-07/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/61x24n3w879ayzpcjzijqsg1pc2lvavy-patchelf-0.15.2/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/61x24n3w879ayzpcjzijqsg1pc2lvavy-patchelf-0.15.2/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/rp1zq1p0rjfdg99rb2cfs14871y6cqaj-gcc-16.2.0/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/rp1zq1p0rjfdg99rb2cfs14871y6cqaj-gcc-16.2.0/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/53wag47axb3bjnwn0imzksh4c9w3mgx7-glibc-2.44-57-bin/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/53wag47axb3bjnwn0imzksh4c9w3mgx7-glibc-2.44-57-bin/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/a50ml7za6h61m4mv4cdbvkl33c6sx5yn-coreutils-9.12/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/a50ml7za6h61m4mv4cdbvkl33c6sx5yn-coreutils-9.12/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/vpk4jmp902lmp1jgv9k9265hvybh8b1p-binutils-wrapper-2.46/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/vpk4jmp902lmp1jgv9k9265hvybh8b1p-binutils-wrapper-2.46/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/45qppvrgigcmyjina7a6p82f2pf5kzmr-binutils-2.46/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/45qppvrgigcmyjina7a6p82f2pf5kzmr-binutils-2.46/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/5zsc280i2i7bqgjn7kln87w1ss6li22f-findutils-4.11.0/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/5zsc280i2i7bqgjn7kln87w1ss6li22f-findutils-4.11.0/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/4ar4316ix4npp991142wq8x5i129c7pd-diffutils-3.12/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/4ar4316ix4npp991142wq8x5i129c7pd-diffutils-3.12/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/x275j18p7dx6kv7vfj45saapbhbljia4-gnused-4.10/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/x275j18p7dx6kv7vfj45saapbhbljia4-gnused-4.10/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/5sgjjiqn90zmvlvlgadw7ss00nn3hpjb-gnugrep-3.12/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/5sgjjiqn90zmvlvlgadw7ss00nn3hpjb-gnugrep-3.12/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/6jw5614njszmn5v325j9lq1fwp4p6lyx-gawk-5.4.1/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/6jw5614njszmn5v325j9lq1fwp4p6lyx-gawk-5.4.1/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/7g2i4irm3d2yvbwan7c3gr4pkgwc313p-gnutar-1.35/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/7g2i4irm3d2yvbwan7c3gr4pkgwc313p-gnutar-1.35/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/pd6kmgkpz1bmpck9sc2yr520hmvrzm1l-gzip-1.15/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/pd6kmgkpz1bmpck9sc2yr520hmvrzm1l-gzip-1.15/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/ic27066xy2xgdddziwnnh7kl6gx25mps-bzip2-1.0.8-bin/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/ic27066xy2xgdddziwnnh7kl6gx25mps-bzip2-1.0.8-bin/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/xajdnxzflx2calfnqvvjh5zb6lmmjiaa-gnumake-4.4.1/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/xajdnxzflx2calfnqvvjh5zb6lmmjiaa-gnumake-4.4.1/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/hasnvc0j36gg6qrdsfcx7yivx3c2bpqr-bash-5.3p20/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/hasnvc0j36gg6qrdsfcx7yivx3c2bpqr-bash-5.3p20/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/jjx4z5lamb00psmiyag0fqmc8gy2i640-patch-2.8.1/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/jjx4z5lamb00psmiyag0fqmc8gy2i640-patch-2.8.1/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/6mm66zaj29q72pcax4xhzgh4vwp6qy0y-xz-5.8.4-bin/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/6mm66zaj29q72pcax4xhzgh4vwp6qy0y-xz-5.8.4-bin/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/4d81lw0vjpxpaf3d5shahwp2a3hs446s-file-5.48/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/4d81lw0vjpxpaf3d5shahwp2a3hs446s-file-5.48/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/run/wrappers/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/run/wrappers/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/var/lib/flatpak/exports/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/var/lib/flatpak/exports/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/f/.nix-profile/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/f/.nix-profile/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/var/nix/profiles/default/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/var/nix/profiles/default/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/run/current-system/sw/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/run/current-system/sw/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/c1a2l64csn5lrwjqqnaman6hdici70vq-binutils-wrapper-2.46/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/c1a2l64csn5lrwjqqnaman6hdici70vq-binutils-wrapper-2.46/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/zw7mfhh93g8i2jzb1hr4mp0rbky64hcd-hyprland-qtutils-0.1.5/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/zw7mfhh93g8i2jzb1hr4mp0rbky64hcd-hyprland-qtutils-0.1.5/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/bgch5jra86a949igdvhap710nxdddxf7-pciutils-3.15.0/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/bgch5jra86a949igdvhap710nxdddxf7-pciutils-3.15.0/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/n4y1qdsyx3kdrcab6d93qp2xsdapc25n-pkgconf-wrapper-2.5.1/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/nix/store/n4y1qdsyx3kdrcab6d93qp2xsdapc25n-pkgconf-wrapper-2.5.1/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "/nix/store/bya4ansy58az5133kryqp2cvrxbnz8qy-python3-3.14.10/bin"
+        - "/nix/store/jahpzbzs80cj8f1qdsc7w7kpc8rvkdrm-python3.14-west-1.5.0/bin"
+        - "/nix/store/mflhqwd159gdwrdmljicp2f2mzni8q67-python3.14-pykwalify-1.8.0/bin"
+        - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin"
+        - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin"
+        - "/nix/store/lfm00fnq66xfgbn099vqckabyl5jllz6-bash-interactive-5.3p20/bin"
+        - "/nix/store/4v5ykmpi2i4q5c5nskp5036sgn0gldw4-picocom-2024-07/bin"
+        - "/nix/store/61x24n3w879ayzpcjzijqsg1pc2lvavy-patchelf-0.15.2/bin"
+        - "/nix/store/ii6p6kc1brz3vycqg88q4zb4xd2dmqwp-gcc-wrapper-16.2.0/bin"
+        - "/nix/store/rp1zq1p0rjfdg99rb2cfs14871y6cqaj-gcc-16.2.0/bin"
+        - "/nix/store/53wag47axb3bjnwn0imzksh4c9w3mgx7-glibc-2.44-57-bin/bin"
+        - "/nix/store/a50ml7za6h61m4mv4cdbvkl33c6sx5yn-coreutils-9.12/bin"
+        - "/nix/store/vpk4jmp902lmp1jgv9k9265hvybh8b1p-binutils-wrapper-2.46/bin"
+        - "/nix/store/45qppvrgigcmyjina7a6p82f2pf5kzmr-binutils-2.46/bin"
+        - "/nix/store/a50ml7za6h61m4mv4cdbvkl33c6sx5yn-coreutils-9.12/bin"
+        - "/nix/store/5zsc280i2i7bqgjn7kln87w1ss6li22f-findutils-4.11.0/bin"
+        - "/nix/store/4ar4316ix4npp991142wq8x5i129c7pd-diffutils-3.12/bin"
+        - "/nix/store/x275j18p7dx6kv7vfj45saapbhbljia4-gnused-4.10/bin"
+        - "/nix/store/5sgjjiqn90zmvlvlgadw7ss00nn3hpjb-gnugrep-3.12/bin"
+        - "/nix/store/6jw5614njszmn5v325j9lq1fwp4p6lyx-gawk-5.4.1/bin"
+        - "/nix/store/7g2i4irm3d2yvbwan7c3gr4pkgwc313p-gnutar-1.35/bin"
+        - "/nix/store/pd6kmgkpz1bmpck9sc2yr520hmvrzm1l-gzip-1.15/bin"
+        - "/nix/store/ic27066xy2xgdddziwnnh7kl6gx25mps-bzip2-1.0.8-bin/bin"
+        - "/nix/store/xajdnxzflx2calfnqvvjh5zb6lmmjiaa-gnumake-4.4.1/bin"
+        - "/nix/store/hasnvc0j36gg6qrdsfcx7yivx3c2bpqr-bash-5.3p20/bin"
+        - "/nix/store/jjx4z5lamb00psmiyag0fqmc8gy2i640-patch-2.8.1/bin"
+        - "/nix/store/6mm66zaj29q72pcax4xhzgh4vwp6qy0y-xz-5.8.4-bin/bin"
+        - "/nix/store/4d81lw0vjpxpaf3d5shahwp2a3hs446s-file-5.48/bin"
+        - "/run/wrappers/bin"
+        - "/home/f/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/f/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/f/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/f/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/c1a2l64csn5lrwjqqnaman6hdici70vq-binutils-wrapper-2.46/bin"
+        - "/nix/store/zw7mfhh93g8i2jzb1hr4mp0rbky64hcd-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/bgch5jra86a949igdvhap710nxdddxf7-pciutils-3.15.0/bin"
+        - "/nix/store/n4y1qdsyx3kdrcab6d93qp2xsdapc25n-pkgconf-wrapper-2.5.1/bin"
+...

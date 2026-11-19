@@ -1,0 +1,6 @@
+if BOARD_TRANSLATOR_SLIM
+
+config BOARD
+    default "translator_slim"
+
+endif # BOARD_TRANSLATOR_SLIM

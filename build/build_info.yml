@@ -1,0 +1,5 @@
+west:
+  command: /nix/store/jahpzbzs80cj8f1qdsc7w7kpc8rvkdrm-python3.14-west-1.5.0/bin/west
+    build -s zmk/app -b translator_slim -- -DZMK_CONFIG=/home/f/git/translator_slim/config
+  topdir: /home/f/git/translator_slim
+  version: 1.5.0
